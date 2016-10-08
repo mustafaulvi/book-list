@@ -19,7 +19,7 @@ import java.util.Set;
 @Controller
 public class MainController {
 
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String index() {
         return "index";
     }
